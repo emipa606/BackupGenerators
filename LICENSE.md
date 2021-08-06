@@ -1,0 +1,1 @@
+Please feel free to pull this apart and make any derivative work you like as long as it's not a straight copy to claim this work as your own. Attribution is not required but is always appreciated.
