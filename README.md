@@ -1,21 +1,21 @@
 # BackupGenerators
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of DamnationLtds mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1542909561
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 Backup generators provide a stopgap to prevent black/brownouts when battery reserves are depleted.
 
 NB: 1.0 version bundles Harmony 1.2; 1.1 version bundles Harmony 2
 
 Features
-* Generators start producing power when connected reserves are critically low (&lt;= 200 Wd) and stop when reserves exceed 1000 Wd or their power is flicked off/on
+* Generators start producing power when connected reserves are critically low (= 200 Wd) and stop when reserves exceed 1000 Wd or their power is flicked off/on
 * Brand new art! Uranium version! Thanks, Xsile!
 * Configurable low and high reserve values in mod settings. Thanks, Herbiems89!
 
@@ -64,12 +64,12 @@ Mobile Uranium:
 * 80 Plasteel, 60 Steel, 6 Component, 5 Uranium, 7500 work to build
 
 Feedback Welcome
-Let us know if there are bugs, balance issues, or features you&apos;d like to see!
+Let us know if there are bugs, balance issues, or features you'd like to see!
 
 Change Log
 
 2020/02/29, 1.7.0: Release 1.1 support!
-* Thanks to pardeike&apos;s gist on GH!
+* Thanks to pardeike's gist on GH!
 * Bug fix: Minified mobile uranium generator no longer breaks on game load (thanks Senacharim!)
 
 -------------------------------------------------------------------------------------------
@@ -123,9 +123,9 @@ Roadmap
 * Other options?
 
 License
-Please feel free to pull this apart and make any derivative work you like as long as it&apos;s not a straight copy to claim this work as your own. Attribution is not required but is always appreciated.
+Please feel free to pull this apart and make any derivative work you like as long as it's not a straight copy to claim this work as your own. Attribution is not required but is always appreciated.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

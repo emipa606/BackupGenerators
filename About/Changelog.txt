@@ -1,4 +1,7 @@
 # Changelog for BackupGenerators
 
+1.0.1.0 - Added support for Simple FX: Smoke
+
+
 1.0.0.0 - First publish
 
