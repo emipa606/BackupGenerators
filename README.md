@@ -5,6 +5,8 @@
 Update of DamnationLtds mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1542909561
 
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -135,6 +137,7 @@ Please feel free to pull this apart and make any derivative work you like as lon
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

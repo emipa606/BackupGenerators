@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BaGe.Apply>Apply</BaGe.Apply>
+  <BaGe.Value>Wd Value at which generators will turn on and off</BaGe.Value>
+  <BaGe.Applied>New Threshold applied</BaGe.Applied>
+  <BaGe.LowPower>Low Power Threshold</BaGe.LowPower>
+  <BaGe.HighPower>High Power Threshold</BaGe.HighPower>
+  <BaGe.ModVersion>Installed mod-version: {0}</BaGe.ModVersion>
+</LanguageData>
