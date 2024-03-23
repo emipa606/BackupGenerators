@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FleckDef[defName="Owl_SmokeHeavy"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="BackupGeneratorWood"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <fleckDef>Owl_SmokeHeavy</fleckDef>
+              <particleSize>0.8</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="BackupGeneratorChemfuel"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <particleSize>0.8</particleSize>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="MobileGeneratorChemfuel"]/comps</xpath>
+          <value>
+            <li Class="Flecker.CompProperties_Smoker">
+              <particleSize>0.6</particleSize>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
