@@ -9,7 +9,7 @@ internal class CompBackupUraniumAnimatedLarge : Building
     private const int arraySize = 12; // Turn animation off => set to 1
 
     // This is the graphics container:
-    public static Graphic[] graphic;
+    private static Graphic[] graphic;
 
     private readonly string
         graphicPathAdditionWoNumber = "_Frame"; // everything before this will be used for the other file names
@@ -19,7 +19,7 @@ internal class CompBackupUraniumAnimatedLarge : Building
 
     private int activeGraphicFrame;
 
-    protected CompBackupPower powerComp;
+    private CompBackupPower powerComp;
     private int ticksSinceUpdateGraphic;
 
     public override Graphic Graphic
@@ -86,7 +86,7 @@ internal class CompBackupUraniumAnimatedLarge : Building
         }
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         // Call work function
         DoTickerWork(1);

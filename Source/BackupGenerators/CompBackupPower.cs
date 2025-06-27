@@ -13,12 +13,12 @@ namespace DLTD;
 
 public class CompBackupPower : CompPowerTrader
 {
-    protected CompBreakdownable breakdownableComp;
+    private CompBreakdownable breakdownableComp;
 
     public bool recharging;
-    protected CompRefuelable refuelableComp;
+    private CompRefuelable refuelableComp;
 
-    protected CompRefuelableDualConsumption refuelableDualConsumptionComp;
+    private CompRefuelableDualConsumption refuelableDualConsumptionComp;
 
     protected virtual float DesiredPowerOutput => -Props.PowerConsumption;
 

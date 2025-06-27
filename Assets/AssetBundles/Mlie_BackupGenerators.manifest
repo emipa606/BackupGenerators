@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 4204390215
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a2a2a82cac2ccc447c60960c1fc45757
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a2a2a82cac2ccc447c60960c1fc45757
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame1.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame8.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame3.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame5.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame1.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorWood.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame2.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame11.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame10.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame6.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame7.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame3.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorChemfuel.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame9.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame9.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame8.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame4.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame12.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorChemfuel.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame2.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame11.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame7.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame12.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame5.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame4.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/MobileGeneratorUranium_Frame6.png
+- Assets/Data/Mlie.BackupGenerators/Textures/Things/Building/Power/BackupGeneratorUranium_Frame10.png
+Dependencies: []

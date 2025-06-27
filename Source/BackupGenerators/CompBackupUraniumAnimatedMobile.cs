@@ -9,7 +9,7 @@ internal class CompBackupUraniumAnimatedMobile : Building
     private const int arraySize = 12; // Turn animation off => set to 1
 
     // This is the graphics container:
-    public static Graphic[] graphic;
+    private static Graphic[] graphic;
 
     private readonly string
         graphicPathAdditionWoNumber = "_Frame"; // everything before this will be used for the other file names
@@ -19,7 +19,7 @@ internal class CompBackupUraniumAnimatedMobile : Building
 
     private int activeGraphicFrame;
 
-    protected CompBackupPower powerComp;
+    private CompBackupPower powerComp;
     private int ticksSinceUpdateGraphic;
 
     public override Graphic Graphic
@@ -38,7 +38,7 @@ internal class CompBackupUraniumAnimatedMobile : Building
                     return graphic[activeGraphicFrame] ?? base.Graphic;
                 }
 
-                UpdateGraphics();
+                updateGraphics();
                 // Graphic couldn't be loaded? (Happends after load for a while)
                 if (graphic?[0] == null)
                 {
@@ -64,7 +64,7 @@ internal class CompBackupUraniumAnimatedMobile : Building
     /// <summary>
     ///     Import the graphics
     /// </summary>
-    private void UpdateGraphics()
+    private void updateGraphics()
     {
         // Check if graphic is already filled
         if (graphic is { Length: > 0 } && graphic[0] != null)
@@ -86,17 +86,17 @@ internal class CompBackupUraniumAnimatedMobile : Building
         }
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         // Call work function
-        DoTickerWork(1);
+        doTickerWork(1);
 
         base.Tick();
     }
 
 
     // Here is the main decision work of this building done
-    private void DoTickerWork(int ticks)
+    private void doTickerWork(int ticks)
     {
         if (Map == null)
         {

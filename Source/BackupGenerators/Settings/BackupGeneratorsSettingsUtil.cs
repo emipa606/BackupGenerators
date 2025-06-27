@@ -12,12 +12,12 @@ internal static class BackupGeneratorsSettingsUtil
         HighPower = null;
     }
 
-    public static Dictionary<string, float> LowPower { get; set; }
-    public static Dictionary<string, float> HighPower { get; set; }
-    public static Dictionary<string, ThingDef> BackupGeneratorsDefLow { get; set; }
-    public static Dictionary<string, ThingDef> BackupGeneratorsDefHigh { get; set; }
+    private static Dictionary<string, float> LowPower { get; set; }
+    private static Dictionary<string, float> HighPower { get; set; }
+    private static Dictionary<string, ThingDef> BackupGeneratorsDefLow { get; set; }
+    private static Dictionary<string, ThingDef> BackupGeneratorsDefHigh { get; set; }
 
-    private static void CreateLowPowerMap()
+    private static void createLowPowerMap()
     {
         if (LowPower != null)
         {
@@ -50,7 +50,7 @@ internal static class BackupGeneratorsSettingsUtil
         }
     }
 
-    private static void CreateHighPowerMap()
+    private static void createHighPowerMap()
     {
         if (HighPower != null)
         {
@@ -85,8 +85,8 @@ internal static class BackupGeneratorsSettingsUtil
 
     public static void ApplyFactor(float newValueLow, float newValueHigh)
     {
-        CreateLowPowerMap();
-        CreateHighPowerMap();
+        createLowPowerMap();
+        createHighPowerMap();
 
         foreach (var low in LowPower)
         {

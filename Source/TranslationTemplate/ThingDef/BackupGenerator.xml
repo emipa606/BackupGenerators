@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Backup generator (chemfuel) -->
+  <BackupGeneratorChemfuel.label>Backup generator (chemfuel)</BackupGeneratorChemfuel.label>
+  <!-- EN: Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle. -->
+  <BackupGeneratorChemfuel.description>Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle.</BackupGeneratorChemfuel.description>
+  <!-- EN: Backup generator (wood) -->
+  <BackupGeneratorWood.label>Backup generator (wood)</BackupGeneratorWood.label>
+  <!-- EN: Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle. -->
+  <BackupGeneratorWood.description>Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle.</BackupGeneratorWood.description>
+  <!-- EN: Backup generator (uranium) -->
+  <LargeBackupGeneratorUranium.label>Backup generator (uranium)</LargeBackupGeneratorUranium.label>
+  <!-- EN: Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle. -->
+  <LargeBackupGeneratorUranium.description>Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle.</LargeBackupGeneratorUranium.description>
+  <!-- EN: Mobile generator (chemfuel) -->
+  <MobileGeneratorChemfuel.label>Mobile generator (chemfuel)</MobileGeneratorChemfuel.label>
+  <!-- EN: A portable generator that burns chemfuel at a semi-effecient rate to power a small home or base. -->
+  <MobileGeneratorChemfuel.description>A portable generator that burns chemfuel at a semi-effecient rate to power a small home or base.</MobileGeneratorChemfuel.description>
+  <!-- EN: Mobile generator (uranium) -->
+  <MobileGeneratorUranium.label>Mobile generator (uranium)</MobileGeneratorUranium.label>
+  <!-- EN: Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle. -->
+  <MobileGeneratorUranium.description>Emergency power kicks in when battery reserves fall below a set minimum (default: 200 Wd). Generator kicks off when reserves exceed a set maximum (default: 1000 Wd). Consumes little fuel when idle.</MobileGeneratorUranium.description>
+</LanguageData>

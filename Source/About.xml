@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Backup Generators</name>
   <author>DamnationLtd</author>
@@ -12,12 +12,12 @@
 
 NB: 1.0 version bundles Harmony 1.2; 1.1 version bundles Harmony 2
 
-&lt;size=24&gt;Features&lt;/size&gt;
+&lt;size=24>Features&lt;/size>
 * Generators start producing power when connected reserves are critically low (&lt;= 200 Wd) and stop when reserves exceed 1000 Wd or their power is flicked off/on
 * Brand new art! Uranium version! Thanks, Xsile!
 * Configurable low and high reserve values in mod settings. Thanks, Herbiems89!
 
-&lt;size=24&gt;Specifics&lt;/size&gt;
+&lt;size=24>Specifics&lt;/size>
 * Each generator type should appear in the Power category when the research requirements are fulfilled
 * Generators consume some fuel even when idling, although less than power-producing Vanilla fueled generators
 
@@ -61,10 +61,10 @@ Mobile Uranium:
 * MultiAnalyzer and Fabrication to unlock
 * 80 Plasteel, 60 Steel, 6 Component, 5 Uranium, 7500 work to build
 
-&lt;size=24&gt;Feedback Welcome&lt;/size&gt;
+&lt;size=24>Feedback Welcome&lt;/size>
 Let us know if there are bugs, balance issues, or features you'd like to see!
 
-&lt;size=24&gt;Change Log&lt;/size&gt;
+&lt;size=24>Change Log&lt;/size>
 
     2020/02/29, 1.7.0: Release 1.1 support!
     * Thanks to pardeike's gist on GH!
@@ -114,12 +114,12 @@ Let us know if there are bugs, balance issues, or features you'd like to see!
     * Since they generate some amount of heat, the heater hinting shows when placing generators
     * Documentation flub on 1.2
 
-    &lt;size=24&gt;Roadmap&lt;/size&gt;
+    &lt;size=24>Roadmap&lt;/size>
 * Animations!
 * Size and orientation changes, TBD
 * Other options?
 
-&lt;size=24&gt;License&lt;/size&gt;
+&lt;size=24>License&lt;/size>
 Please feel free to pull this apart and make any derivative work you like as long as it's not a straight copy to claim this work as your own. Attribution is not required but is always appreciated.
   </description>
 </ModMetaData>

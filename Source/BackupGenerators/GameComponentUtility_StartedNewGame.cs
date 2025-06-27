@@ -3,8 +3,8 @@ using Verse;
 
 namespace BackupGenerators;
 
-[HarmonyPatch(typeof(GameComponentUtility), "StartedNewGame")]
-internal static class Patch_GameComponentUtility_StartedNewGame
+[HarmonyPatch(typeof(GameComponentUtility), nameof(GameComponentUtility.StartedNewGame))]
+internal static class GameComponentUtility_StartedNewGame
 {
     private static void Postfix()
     {

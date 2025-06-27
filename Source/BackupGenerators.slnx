@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="BackupGenerators/BackupGenerators.csproj" />
+  <Properties Name="MonoDevelopProperties">
+    <Property Name="$0.DotNetNamingPolicy" Value="$1" />
+    <Property Name="$0.StandardHeader" Value="$2" />
+    <Property Name="$0.VersionControlPolicy" Value="$3" />
+    <Property Name="$1.DirectoryNamespaceAssociation" Value="PrefixedHierarchical" />
+    <Property Name="outputpath" Value="../1.1/Assemblies" />
+    <Property Name="Policies" Value="$0" />
+  </Properties>
+</Solution>

@@ -18,7 +18,7 @@ namespace DLTD;
 [StaticConstructorOnStartup]
 public class CompRefuelableDualConsumption : ThingComp
 {
-    protected CompRefuelable refuelableComp;
+    private CompRefuelable refuelableComp;
 
     public bool LowPowerMode { get; set; }
 

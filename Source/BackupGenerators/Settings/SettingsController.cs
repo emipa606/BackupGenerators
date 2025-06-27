@@ -23,15 +23,15 @@ public class SettingsController : Mod
 
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
 
         Settings.LowPowerThresh.AsString =
-            listing_Standard.TextEntryLabeled("BaGe.LowPower".Translate(), Settings.LowPowerThresh.AsString);
+            listingStandard.TextEntryLabeled("BaGe.LowPower".Translate(), Settings.LowPowerThresh.AsString);
         Settings.HighPowerThresh.AsString =
-            listing_Standard.TextEntryLabeled("BaGe.HighPower".Translate(), Settings.HighPowerThresh.AsString);
+            listingStandard.TextEntryLabeled("BaGe.HighPower".Translate(), Settings.HighPowerThresh.AsString);
 
-        if (listing_Standard.ButtonText("BaGe.Apply".Translate()))
+        if (listingStandard.ButtonText("BaGe.Apply".Translate()))
         {
             if (Settings.LowPowerThresh.ValidateInput() && Settings.HighPowerThresh.ValidateInput())
             {
@@ -40,7 +40,7 @@ public class SettingsController : Mod
             }
         }
 
-        listing_Standard.Label("BaGe.Value".Translate());
+        listingStandard.Label("BaGe.Value".Translate());
         if (Current.Game != null)
         {
             BackupGeneratorsSettingsUtil.ApplyFactor(Settings.LowPowerThresh.AsFloat,
@@ -50,7 +50,7 @@ public class SettingsController : Mod
         if (currentVersion != null)
         {
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("BaGe.ModVersion".Translate(currentVersion));
+            listingStandard.Label("BaGe.ModVersion".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
