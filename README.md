@@ -140,4 +140,4 @@ Please feel free to pull this apart and make any derivative work you like as lon
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/BackupGenerators?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2567443348) | tags: fuel generators
+[![Image](https://img.shields.io/github/v/release/emipa606/BackupGenerators?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2567443348) | fuel generators
